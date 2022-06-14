@@ -27,4 +27,3 @@ jobs:
 # which will somehow update the code coverage value based on the JaCoCo report generated during the previous build command.
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-bb
